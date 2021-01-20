@@ -1,0 +1,25 @@
+footer {
+    background-color:red;
+    color:white
+}
+nav {
+    background-color: red;
+}
+.navbar-brand {
+    color:white
+}
+.nav-link {
+    color:white
+}
+h4 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkblue;
+    color:white
+}
+h5 {
+    text-align: center;
+}

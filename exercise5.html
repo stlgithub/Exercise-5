@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta name="author" content="Sami Lappalainen">
+  <meta name="description" content="A web page I made for my class for exercise 5. Modeled after the Taloussanomat webpage.">
+  <meta name="link" content="https://stlgithub.github.io/sami_lappalainenwww21/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS Taloussanomat / Bootstrap - Exercise 5</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+<body style="background-color:lightgrey;">
+    
+
+  <div class="container">
+        
+
+    <div class = "row">
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Ilta-Sanomat</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tuoreimmat</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Luetuimmat</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sää</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Osastot</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Uutiset</a></li>
+                      <li><a class="dropdown-item" href="#">Viihde</a></li>
+                      <li><a class="dropdown-item" href="#">Urheilu</a></li>
+                      <li><a class="dropdown-item" href="#">Talous</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+        </div>
+
+
+        <div class="row">
+            <div class="col" style="background-color: white;">
+                <h1>Terrafamen akkukemikaalitehdas sai luvan aloittaa toimintansa</h1>
+                <img src="images/factory.jpg" alt="Photo info"/>
+                <p>Pohjois-Suomen aluehallintovirasto kertoo myöntäneensä ympäristöluvan kaivosyhtiön Terrafamen akkukemikaalitehtaalle.</p>
+            </div>
+           
+           
+            <div class="col">
+              <div class="row" style="background-color:gray;color:white">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Sähköpostiosoite</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text" style="color:white;">Emme koskaan jaa sähköpostiosoitettasi kenenkään kanssa.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Salasana</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Muista tietoni</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Hyväksy</button>
+                  </form>
+                </div>
+
+              
+                <div class="row" style="background-color:white">
+                <div> <h4>HELSINGIN SANOMAT</h4>
+                  <ul> <li>Yhdysvallat | Lady Gaga kansallislaulun esittäjänä ja Trumpille kuittailu eivät istuneet tuoreen presidentin viestiin yhtenäisyydestä, arvioi tutkija </li><br>
+                    <li>Yhdysvallat | Neljä vuotta sitten Trumpin virkaanastujaisissa oli ”suurin yleisö koskaan” – Tältä näyttävät kuvat Bidenin, Trumpin ja Obaman historian oikeasti suurimmasta yleisöstä</li><br>
+                    <li>USA:n vallanvaihto | Joe Biden on nyt Yhdysvaltain presidentti, joka alkaa heti kammeta maataan irti Trumpin aikakaudesta</li><br>
+                    <li>Kirkko | Helsingin hiippa­kunnan tuomio­kapituli pidättää pastori Kai Sadinmaan pappisvirasta kuuden kuukauden ajaksi</li><br>
+                    <li>Euroopan unioni | Suomen piti saada EU:n elpymispaketista 3,2 miljardia euroa, mutta tuoreen arvion mukaan tulossa onkin puoli miljardia euroa vähemmän</li>
+                  </ul>
+                </div> 
+                </div>
+   
+
+            </div>
+            </div>
+    
+
+            <div class="col">
+                <div> <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                          <th scope="col">Tänään - 20.01.2021</th>
+                          <th colspan="2"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Helsinging kaupunginvaltuusto hyväksyi Länsi-Helsingin raitiotieteiden yleissuunnitelman - kyselytunnilla esillä koronatilanne</th>
+                          <td>STT Info</td>
+                          <td>23:02</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Tiedote opetus- ja varhaiskasvatuslautakunnan kokouksesta 20.1.2021</th>
+                          <td>STT Info</td>
+                          <td>20:37</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Jykialla monta rautaa tulessa Jyväskylän seudulla - yhteistyöllä yritysten hyväksi</th>
+                          <td>STT Info</td>
+                          <td>19:45</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ovaro Kiinteistösijoitus Oyj: OMIEN OSAKKEIDEN HANKINTA 20.1.2021</th>
+                            <td>GlobeNewswire</td>
+                            <td>18:30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Kansallinen rokotusasiantuntijaryhmä: koronarokotusten edettävä nopeasti ja joustavasti ikääntyneiden suojaamiseksi</th>
+                            <td>STT Info</td>
+                            <td>17:45</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                <footer>
+                  <img src="images/Ilta-sanomat-logo-red.png" alt="Photo info" height="20%" width="20%"/>
+                  <h5>Lähetä uutisvihje &nbsp Yhteystiedot &nbsp Palaute &nbsp Mediatiedot / Mediakit &nbsp Käyttöehdot</h5>
+                  <p style="text-align: right;"> 2021 Web Development Exercise 5 <p>
+              </footer>
+                </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
