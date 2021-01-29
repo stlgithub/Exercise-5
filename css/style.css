@@ -23,3 +23,7 @@ h4 {
 h5 {
     text-align: center;
 }
+
+li:not(:last-child) {
+    margin-bottom: 18px;
+}
